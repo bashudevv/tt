@@ -1,0 +1,345 @@
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header */
+.ba-header .navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+}
+.ba-header span {
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 35px;
+	position: relative;
+	top: 5px;
+}
+.ba-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+/* bg-main-color */
+.bg-main-color{
+    background: #f7f9ff;
+}
+/* slider section */
+.slider-section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.slider-section h4{
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.slider-section h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.slider-section .btn{}
+.slider-section .form-contorl{}
+/* about section */
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left p{
+    font-size: 26px;
+    line-height: 2.7rem;
+}
+/* feature section */
+.about-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3s;
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+}
+.left-text-sec{
+    width: 60%;
+    padding: 20px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important ;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+/* portfolio */
+.left-img img{
+    max-width: 100%;
+}
+/* portfolio-section hover */
+.left-img{}
+.left-img a{
+    position: relative;
+    display: block;
+}
+.left-img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(100, 120, 230, .5);
+    opacity: 0;
+    visibility: hidden;
+}
+.left-img:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* start-plan start  */
+.start-plan-content h2{
+    font-size: 50px;
+}
+.start-plan-content p{
+    font-size: 25px;
+}
+.start-plan-item ul li{
+    margin-top: 10px;
+    color: #777;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.start-plan-item ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.start-plan-item ul li span{
+    color: #6278df;
+    width: 40px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.start-plan-button a{
+    box-shadow: 3px 5px 30px 0 rgba(64,87,191,0.3);
+}
+.start-plan-item{
+    box-shadow: 3px 5px 30px 0 rgba(64,87,191,0.1);
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+.start-plan-item:hover .start-plan-button a{
+    background-color: #6278df;
+    border: transparent;
+    color: #fff;
+}
+.start-plan-button a:hover{
+    background-color: #000!important;
+}
+/* testimonial start  */
+.testimonial-item{
+    
+}
+.author-info img{
+    width: 70px;
+    margin-right: 15px;
+}
+.author-info{
+    width: 188px;
+    margin: auto;
+}
+.author-details{
+    position: relative;
+    top: 10px;
+}
+.testimonial-item span{
+    font-size: 50px;
+    color: #7777;
+}
+/* team start  */
+.team-content h2{
+    font-size: 50px;
+}
+.team-item{
+    margin-top: 120px;
+}
+.team-item img{
+    width: 100px;
+    height: auto;
+    margin-top: -60px;
+}
+.team-item a{
+    padding: 5px 10px;
+    width: 84px;
+    color: #555;
+    font-weight: 500;
+    background-color: #fff;
+    text-decoration: none;
+    box-shadow: 3px 5px 30px 0 rgba(64,87,191,0.2);
+    transition: .5s;
+    border-radius: 10px;
+}
+.team-item a:hover{
+    background-color: #465052;
+    color: #fff;
+}
+.card-title{
+    font-size: 25px;
+}
+/* contact start  */
+.contact-content h2{
+    font-size: 50px;
+}
+/* get-app start  */
+.get-app-content p{
+    font-size: 25px;
+}
+.get-app-content h2{
+    font-size: 35px;
+    line-height: 2.9rem;
+}
+.get-app-button a{
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px 10px;
+    transition: .4s;
+}
+.get-app-button span{
+    margin-right: 10px;
+}
+.get-btn-2:hover{
+    background-color: #000;
+}
+.get-app-img img{
+    width: 700px;
+}
+/* footer section */
+.footer-bg{
+    background: #f7f9fff;
+}
+.footer-bg p{
+    font-weight: 500;
+}
+
+/* Responsive*/
+
+
+@media (max-width: 1200px){
+    .slider-caption h2{
+        font-size: 45px;
+    }
+    .about-text-left h1{
+        font-size: 37px;
+
+    }
+    .about-text-left p{
+        font-size: 25px;
+        line-height: 1.8rem ;
+    }
+    .start-plan-content h2{
+        font-size: 45px;
+    }.start-plan-content p{
+        font-size: 20px;
+    }
+    .team-content h2{
+        font-size: 35px;
+    }
+    .contact-content h2{
+        font-size: 30px;
+    }
+    .get-app-content h2{
+        font-size: 30px;
+    }
+    .get-app-button .btnn{
+        margin-top: 10px;
+    }
+}
+@media (max-width:992px){
+    .rspn{
+        margin-top: 10px;
+    }
+    .slider-caption h4{
+        font-size: 20px;
+    }
+    .slider-caption h2{
+        font-size: 30px;
+        margin-top: -24px;
+    }
+    .about-text-left h1{
+        font-size: 30px;
+
+    }
+    .about-text-left p{
+        font-size: 18px;
+        line-height: 1.3rem ;
+    }
+    .about-text-left{
+        margin-top: 0;
+    }
+    .team-content h2{
+        font-size: 30px;
+    }
+    .get-app-content h2{
+        font-size: 22px;
+    }
+    .get-app-content p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:772px){
+    .slider-caption h4{
+        font-size: 12px;
+    }
+    .slider-caption h2 {
+        font-size: 22px;
+        margin-top: -24px;
+    }
+    .about-dtls h1{
+        font-size: 30px;
+    }
+    .start-plan-content h2{
+        font-size: 30px;
+    }.start-plan-content p{
+        font-size: 17px;
+    }
+    .contact-content h2{
+        font-size: 25px;
+    }
+}
+@media (max-width:700px){
+    .get-app-content h2{
+        font-size: 15px;
+    }
+    .get-app-content p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:492px){
+    .about-dtls p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:450px){
+    .ftr{
+        font-size: 15px;
+    }
+}
